@@ -7,6 +7,11 @@ public class VendingMachineTest {
         vm.insertCoin(); 
         vm.dispenseItem();
 
+        vm.selectItem();
+        vm.dispenseItem();
+        vm.insertCoin(); 
+        vm.dispenseItem();
+
         vm.setOutOfOrder();
         vm.selectItem(); 
     }

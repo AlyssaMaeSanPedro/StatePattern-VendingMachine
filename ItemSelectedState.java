@@ -14,7 +14,7 @@ public class ItemSelectedState implements VendingMachineState {
     }
 
     public void setOutOfOrder(VendingMachine vm) {
-        System.out.println("Sorry! The vending machine is currently out of order.");
+        System.out.println("The vending machine is currently out of order.");
         vm.setState(new OutOfOrderState());
     }
 }
